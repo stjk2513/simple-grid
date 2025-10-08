@@ -1,5 +1,15 @@
-<script setup></script>
+<script setup>
+import Grid from "./components/Grid.vue";
+</script>
 
-<template></template>
+<template>
+  <div class="app-body">
+    <Grid />
+  </div>
+</template>
 
-<style scoped></style>
+<style scoped>
+.app-body {
+  margin: 30px;
+}
+</style>
